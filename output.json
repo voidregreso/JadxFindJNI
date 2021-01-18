@@ -1,0 +1,213 @@
+{
+  "Java_com_hippo_a7zip_InArchive_nativeGetEntryStringProperty": {
+    "argumentSignature": "JII",
+    "argumentTypes": [
+      "jlong",
+      "jint",
+      "jint"
+    ],
+    "returnType": "jstring",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_InArchive_nativeExtractEntry": {
+    "argumentSignature": "JILjava/lang/String;Lcom/hippo/a7zip/SequentialOutStream;",
+    "argumentTypes": [
+      "jlong",
+      "jint",
+      "jstring",
+      "jobject"
+    ],
+    "returnType": "void",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeAdvance": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "void",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeFrameCount": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jint",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_InArchive_nativeGetEntryBooleanProperty": {
+    "argumentSignature": "JII",
+    "argumentTypes": [
+      "jlong",
+      "jint",
+      "jint"
+    ],
+    "returnType": "jboolean",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeComplete": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jboolean",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_InArchive_nativeGetArchiveBooleanProperty": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jboolean",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeTexImage": {
+    "argumentSignature": "JIZIIII",
+    "argumentTypes": [
+      "jlong",
+      "jint",
+      "jboolean",
+      "jint",
+      "jint",
+      "jint",
+      "jint"
+    ],
+    "returnType": "void",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeDecode": {
+    "argumentSignature": "Ljava/io/InputStream;Z",
+    "argumentTypes": [
+      "jobject",
+      "jboolean"
+    ],
+    "returnType": "jobject",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_InArchive_nativeClose": {
+    "argumentSignature": "J",
+    "argumentTypes": [
+      "jlong"
+    ],
+    "returnType": "void",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeCreate": {
+    "argumentSignature": "Landroid/graphics/Bitmap;",
+    "argumentTypes": [
+      "jobject"
+    ],
+    "returnType": "jobject",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeGetDelay": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jint",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_A7ZipLoader_nativeUnloadLibrary": {
+    "argumentSignature": "J",
+    "argumentTypes": [
+      "jlong"
+    ],
+    "returnType": "void",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeIsCompleted": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jboolean",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_A7ZipLoader_nativeLoadLibrary": {
+    "argumentSignature": "Ljava/lang/String;",
+    "argumentTypes": [
+      "jstring"
+    ],
+    "returnType": "jlong",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_InArchive_nativeGetNumberOfEntries": {
+    "argumentSignature": "J",
+    "argumentTypes": [
+      "jlong"
+    ],
+    "returnType": "jint",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeGetByteCount": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jint",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_InArchive_nativeOpen": {
+    "argumentSignature": "Lcom/hippo/a7zip/InStream;Ljava/lang/String;",
+    "argumentTypes": [
+      "jobject",
+      "jstring"
+    ],
+    "returnType": "jlong",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeRecycle": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "void",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeRender": {
+    "argumentSignature": "JIIILandroid/graphics/Bitmap;IIIIZI",
+    "argumentTypes": [
+      "jlong",
+      "jint",
+      "jint",
+      "jint",
+      "jobject",
+      "jint",
+      "jint",
+      "jint",
+      "jint",
+      "jboolean",
+      "jint"
+    ],
+    "returnType": "void",
+    "isStatic": true
+  },
+  "Java_com_hippo_a7zip_InArchive_nativeGetArchivePropertyType": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jint",
+    "isStatic": true
+  },
+  "Java_com_hippo_image_Image_nativeIsOpaque": {
+    "argumentSignature": "JI",
+    "argumentTypes": [
+      "jlong",
+      "jint"
+    ],
+    "returnType": "jboolean",
+    "isStatic": true
+  }
+}
